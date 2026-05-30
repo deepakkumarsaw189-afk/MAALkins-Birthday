@@ -1,0 +1,11 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Poppins,sans-serif;background:linear-gradient(180deg,#ffe7f3,#ffd4ea);overflow-x:hidden}
+.hero,.book-section,.finale{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+.hero h1,.finale h1{font-size:clamp(2rem,8vw,4rem);color:#ff4d94}
+button{padding:16px 28px;border:none;border-radius:40px;background:#ff69b4;color:#fff;font-size:1rem;cursor:pointer}
+.book{width:min(90vw,700px);height:450px;position:relative;perspective:2000px}
+.cover,.page{position:absolute;inset:0;border-radius:20px}
+.cover{background:linear-gradient(135deg,#ff6fae,#ff4d94);display:flex;align-items:center;justify-content:center;color:#fff;font-size:2rem;transform-origin:left center;box-shadow:0 0 40px rgba(255,105,180,.5)}
+.page{background:#fff;padding:30px;color:#444;font-family:'Dancing Script',cursive;font-size:1.5rem}
+.sparkle,.heart{position:fixed;pointer-events:none}
